@@ -162,11 +162,12 @@ bool IsInputValid(string indexInput, out string descriptionMessage, out int inde
     return true;
 }
 
-Console.WriteLine("Please Any Key to Close");
-Console.ReadKey();
-
 static void RemoveTODOByIndex(List<string> todoList, int indexNumber)
 {
     var index = indexNumber - 1;
     todoList.RemoveAt(index);
 }
+
+Console.WriteLine("Please Any Key to Close");
+Console.ReadKey();
+
