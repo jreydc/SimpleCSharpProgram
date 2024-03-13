@@ -2,9 +2,7 @@
 
 public class Pizza
 {
-    private List<Ingredient> _ingredients = new List<Ingredient>();
-
-
+    public List<Ingredient> _ingredients = new List<Ingredient>();
 }
 
 public class Ingredient
