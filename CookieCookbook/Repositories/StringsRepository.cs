@@ -1,0 +1,29 @@
+﻿
+
+namespace CookieCookbook.Repositories;
+
+//This is the Template Method Design Pattern
+//This is the base class of StringJsonRepository and StringTextualRepository.
+public abstract class StringsRepository : IStringRepository
+{
+    public List<string> Read(string filePath)
+    {
+        if (File.Exists(filePath))
+        {
+            var fileContents = File.ReadAllText(filePath);
+            return TextToStrings(fileContents);
+        }
+
+        return new List<string>();
+    }
+
+    protected abstract List<string> TextToStrings(string fileContents);
+
+    public void Write(string filePath, List<string> strings)
+    {
+        File.WriteAllText(filePath, StringsToText(strings));
+    }
+
+    protected abstract string StringsToText(List<string> strings);
+    
+}
