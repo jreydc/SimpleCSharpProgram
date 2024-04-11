@@ -1,4 +1,5 @@
-﻿using CookieCookbook.Recipes;
+﻿using CookieCookbook.Data;
+using CookieCookbook.Recipes;
 using CookieCookbook.Recipes.Ingredients;
 using System;
 using System.Collections.Generic;
@@ -66,4 +67,6 @@ public static class Extensions
 
         return new Recipe(ingredients);
     }
+
+    public static string AsFileFormatExtension(this FileFormat fileFormat) => fileFormat == FileFormat.JSON ? "json" : "txt";
 }
