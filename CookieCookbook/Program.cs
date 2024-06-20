@@ -12,7 +12,7 @@ public class Program
     {
         Console.WriteLine("Cookie Cookbook Project");
 
-        const FileFormat Format = FileFormat.JSON; //This dictates the format of the repository whether it is JSON or TXT fileformat
+        const FileFormat Format = FileFormat.TXT; //This dictates the format of the repository whether it is JSON or TXT fileformat
 
         IStringRepository stringsRepository = Format == FileFormat.JSON ? new StringJsonRepository() : new StringTextualRepository() ;
 
