@@ -1,4 +1,7 @@
 ﻿
+using CookiesRecipeApp.Recipes;
+using CookiesRecipeApp.Recipes.Ingredients;
+
 
 
 Console.WriteLine("Cookies Recipe Application!");
@@ -7,7 +10,6 @@ var cookiesRecipeApp = new CookiesRecipeApp(
     new RecipesConsoleUserInteraction()
     );
 cookiesRecipeApp.Run();
-
 
 public class CookiesRecipeApp
 {
@@ -72,7 +74,7 @@ public class RecipesConsoleUserInteraction : IRecipesConsoleUserInteraction
 
 public interface IRecipesRepository
 {
-
+    List<CookiesRecipeApp.Recipes.Ingredients.Recipe> Read(object filepath);
 }
 
 public class RecipesRepository : IRecipesRepository
