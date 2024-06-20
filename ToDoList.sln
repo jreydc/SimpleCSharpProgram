@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeEquivalentor", "GradeE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingProject", "TestingProject\TestingProject.csproj", "{98123B49-5659-40CE-8A9B-D2F570E663D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieCookbook", "CookieCookbook\CookieCookbook.csproj", "{5E0FA449-8B98-4FA0-963D-6B642F1DD88A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieCookbook", "CookieCookbook\CookieCookbook.csproj", "{5E0FA449-8B98-4FA0-963D-6B642F1DD88A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorHandling", "ErrorHandling\ErrorHandling.csproj", "{1593B018-B457-41AF-A88E-9D6C8D3E621A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{ECC7A8BD-7674-4775-B657-021DDC471EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzProblem", "FizzBuzzProblem\FizzBuzzProblem.csproj", "{2C4A7015-D151-4972-BBD2-E141F9757E72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{5E0FA449-8B98-4FA0-963D-6B642F1DD88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E0FA449-8B98-4FA0-963D-6B642F1DD88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E0FA449-8B98-4FA0-963D-6B642F1DD88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1593B018-B457-41AF-A88E-9D6C8D3E621A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1593B018-B457-41AF-A88E-9D6C8D3E621A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1593B018-B457-41AF-A88E-9D6C8D3E621A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1593B018-B457-41AF-A88E-9D6C8D3E621A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC7A8BD-7674-4775-B657-021DDC471EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC7A8BD-7674-4775-B657-021DDC471EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC7A8BD-7674-4775-B657-021DDC471EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC7A8BD-7674-4775-B657-021DDC471EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4A7015-D151-4972-BBD2-E141F9757E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4A7015-D151-4972-BBD2-E141F9757E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4A7015-D151-4972-BBD2-E141F9757E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4A7015-D151-4972-BBD2-E141F9757E72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
